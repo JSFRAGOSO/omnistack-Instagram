@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://semana:semana@cluster0-m8rin.mongodb.net/test?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://admin:admin@cluster0-m8rin.mongodb.net/test?retryWrites=true&w=majority',{
     useNewUrlParser: true,
 })
 
