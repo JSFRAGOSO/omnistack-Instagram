@@ -1,7 +1,10 @@
 const express = require('express');
 const PostController = require('./controllers/PostController');
 const LikeController = require('./controllers/LikeController');
-const multer = require('multer');
+
+// O multer serve para que o express consiga entender arquivos em MultipartFormData
+const multer = require('multer'); 
+
 const uploadConfig = require('./config/upload');
 
 const routes = new express.Router();
