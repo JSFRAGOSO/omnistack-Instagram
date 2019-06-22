@@ -1,0 +1,5 @@
+---
+applications:
+ - name: MyInstagram
+   random-route: true
+   memory: 256M
